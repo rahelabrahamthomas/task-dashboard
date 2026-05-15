@@ -3,9 +3,6 @@
 A lightweight task management dashboard built with Vue 3, Pinia, and json-server.
 
 ## Running the App
-
-Start both the Vue app and the API server with a single command:
-
 ```bash
 npm run start
 ```
