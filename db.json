@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "task management dashboard",
+      "description": "Build a lightweight task management dashboard ",
+      "status": "done"
+    },
+    
+    
+    {
+      "title": "Sample Task",
+      "description": "Details",
+      "status": "todo",
+      "id": "wouMZzz5vMo"
+        },
+    {
+      "title": "new task",
+      "description": "description",
+      "status": "in-progress",
+      "id": "vDpqB5BD9d4"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@taskapp.com",
+      "password": "password123",
+      "name": "Admin User"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
