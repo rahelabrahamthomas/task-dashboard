@@ -13,7 +13,11 @@ const auth = useAuthStore()
 const showForm = ref(false)
 const editingTask = ref(null)
 
-onMounted(() => taskStore.fetchTasks())
+onMounted(() => {
+  taskStore.fetchTasks();
+  console.log('Fetched tasks:', taskStore.tasks);
+  console.log(taskStore.loading ? 'Loading tasks...' : 'Tasks loaded:', taskStore.tasks);
+})
 
 function openCreate() {
   editingTask.value = null
